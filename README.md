@@ -14,29 +14,29 @@ It filters papers where at least one author is affiliated with a **pharmaceutica
 
 ## 📌 Installation & Setup
 
-### **1️⃣ Install Poetry (If not installed)**
+1️⃣ Install Poetry (If not installed)
 Poetry is required to manage dependencies. Install it using:
 
-```sh
 pip install poetry
 
-### **2️⃣ Clone the Repository**
-```sh
+
+2️⃣ Clone the Repository
+
 git clone <your-github-repo-url>
 cd pubmed_scraper
 
-### **3️⃣ Install Dependencies**
+3️⃣ Install Dependencies
 Inside the project directory, run:
 
-```sh
 poetry install
 
-This will set up all required dependencies.
+This will set up all required dependencies
 
-## 📌 Usage
+
+📌 Usage
 You can run the program using the command line.
 
-```sh
 poetry run python pubmed_scraper/main.py "<your-query>"
 
 This will fetch PubMed papers related to cancer treatment and display them.
+
